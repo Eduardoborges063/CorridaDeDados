@@ -1,10 +1,13 @@
-﻿namespace CorridaDeDados.ConsoleApp1
+﻿using CorridaDeDados.ConsoleApp1.FuncoesDoJogo;
+
+namespace CorridaDeDados.ConsoleApp1
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Jogar jogar = new Jogar();
+            jogar.IniciarJogo();
         }
     }
 }
